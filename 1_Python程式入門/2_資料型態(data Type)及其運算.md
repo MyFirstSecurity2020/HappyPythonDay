@@ -197,7 +197,7 @@ print(str4.capitalize())
 mystr = 'python'
 str4.find(pyth, beg=0, end=len(str4))
 ```
-# [3]列表(list)資料及其運算
+# 3_列表(list)資料及其運算
 ```
 LIST是 Python 中最基本的資料結構。
 
@@ -232,7 +232,7 @@ max(list1)
 min(list1)
 sum(list1)
 ```
-## [4]字典(dict)資料及其運算
+## 4_字典(dict)資料及其運算
 ```
 字典的每筆資料都使用key(鍵)=>value(值) pair(對)
 每筆資料都使用冒號 : 分割
