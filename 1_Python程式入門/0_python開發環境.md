@@ -9,6 +9,7 @@ python有許多開發環境與IDE
    如Windows python程式開發
 ```
 # linux python程式開發(1)互動式模式
+### python3[持續發展中, 學習python的重心]
 ```
 打開terminal ==> 輸入python3
      ===> 開始python3互動式 開發
@@ -24,6 +25,7 @@ Hello, World!
 
 >>> exit() <== 離開互動式模式
 ```
+### python2[已經不再更新, 但仍有些套件使用]
 ```
 打開terminal ==> 輸入python
      ===> 開始python2互動式 開發
