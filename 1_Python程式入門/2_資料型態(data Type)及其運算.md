@@ -213,7 +213,7 @@ Python 內建許多函數:
 1.len(list):元素個數
 2.max(list)返回元素最大值
 3.min(list):返回元素最小值
-...
+```
 
 ### 範例 1:底下程式執行後結果為何?
 ```
@@ -280,9 +280,26 @@ list(dict.items())
 dict = {'Name': 'DaDaLong', 'Age': 17, 'Class': 'First'}
 list(dict.keys())
 ```
-### 作業
+### 應用範例程式
 ```
-使用字典(dict)資料
+使用字典(dict)資料攢成簡單的小寫英文字母 的ASCII 字典
+https://en.wikipedia.org/wiki/ASCII
+ a-->97  ... z-->122
+```
+```
+# key 是數字 value是小寫英文字母 97-->a  ... 122-->z
+ascii_a2z = {num: chr(num) for num in range(97,123)}
+ascii_a2z
+```
+```
+# key 是小寫英文字母   value是 數字 a-->97  ... z-->122
+alphas= []
+for num in range(97,123):
+    alpha = chr(num)
+    alphas.append(alpha)
+  
+ascii_a2z = {alpha: ord(alpha) for alpha in alphas}
+ascii_a2z
 ```
 # [進階研讀]標準函式庫還定義有許多資料型態[不必教]
 ```
