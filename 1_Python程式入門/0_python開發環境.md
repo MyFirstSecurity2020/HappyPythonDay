@@ -1,14 +1,16 @@
 # python開發環境
 ```
-python有許多開發環境與IDE
+python有許多開發環境與IDE(Pycharm, spyder,visual studio code,...)
+
 本課程將使用底下兩種
-[1]linux python程式開發
+[1]linux python程式開發(使用最簡單的gedit撰寫程式)
 [2]使用Goolge Colab 平台開發python程式
 
 其他請參閱Google或書籍
    如Windows python程式開發
 ```
-# linux python程式開發(1)互動式模式
+# [1]linux python程式開發
+## linux python程式開發(1)互動式模式
 ### python3[持續發展中, 學習python的重心]
 ```
 打開terminal ==> 輸入python3
@@ -40,7 +42,7 @@ Hello, World!
 
 >>> exit()   <== 離開互動式模式
 ```
-# linux python程式開發(2)標準模式
+## linux python程式開發(2)標準模式
 ```
 使用最簡單的gedit 撰寫程式 ==> gedit XXX.py
 執行程式 ==> python3 XXX.py
@@ -61,4 +63,48 @@ while i < 6:
 python3 test.py
 
 #若是要執行python2程式 則執行python test.py
+```
+# [2]使用Goolge Colab 平台開發python程式
+```
+講師請自行決定教學內容
+底下僅提供簡單的測試
+有需要時再補充說明((或上網查詢)
+```
+```
+請課後 再看
+Colab 的簡介影片 ==>https://www.youtube.com/watch?v=inN8seMm7UI
+```
+```
+Google 搜尋 Google Colab ==> 即可找到連結
+  ==> 點選連結 需先登入(建議使用Google 帳號登入)
+  ==> 出現選擇 檔案來源畫面 時 先按取消
+```
+### 範例:查看重要 Google Colab已安裝的重要套件版本[先不要解釋內容]
+```
+將底下程式碼貼到cell
+ctrl + Enter 即可執行
+```
+```
+import pandas as pd
+print("pandas version: %s" % pd.__version__)
+ 
+import matplotlib
+print("matplotlib version: %s" % matplotlib.__version__)
+ 
+import numpy as np
+print("numpy version: %s" % np.__version__)
+ 
+import sklearn
+print("scikit-learn version: %s" % sklearn.__version__)
+ 
+import tensorflow as tf
+print("tensorflow version: %s" % tf.__version__)
+ 
+import torch
+print("PyTorch version: %s" %torch.__version__)
+print("2021年4月PyTorch version最新版本 請參閱https://pytorch.org/")
+```
+### 範例:已安裝的pyhon套件與版本[要有 驚嘆號 !]
+```
+!pip list
 ```
