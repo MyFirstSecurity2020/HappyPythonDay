@@ -20,11 +20,9 @@ C C++ C#
 PS: Python沒有switch
 https://www.w3schools.com/python/python_conditions.asp
 ```
-
-#### Python 程式碼縮排
 ```
-Python 語言以冒號「:」及縮排來表示程式區塊
-縮排為 1 個 Tab 鍵或 4 個空白鍵
+教學重點:教學要教最簡單的範例,要快速教完
+作業要出很難的 磨出學生的程式力
 ```
 # [1]if ==>底下程式輸出為何?
 ```
