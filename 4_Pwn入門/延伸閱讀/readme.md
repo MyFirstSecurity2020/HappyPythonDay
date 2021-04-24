@@ -56,9 +56,12 @@ Try again?
 *** stack smashing detected ***: ./bf1 terminated
 Aborted (core dumped)
 ```
-==> stack canary
+==> stack canary 保護機制
 ```
-
+```
+#### 進用stack canary 保護機制
+```
+gcc -g bf1.c -o bf1 -fno-stack-protector 
 ```
 
 #### 測試
