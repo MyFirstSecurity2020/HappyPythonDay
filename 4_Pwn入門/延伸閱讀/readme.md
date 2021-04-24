@@ -32,6 +32,34 @@ int main(int argc, char **argv)
   }
 }
 ```
+#### 測試1 Ubuntu 16.04 LTS(32bit)
+```
+ksu@KSU-Ubuntu-1604-32:~$ gcc -g bf1.c -o bf1
+bf1.c: In function ‘main’:
+bf1.c:11:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(buffer);
+   ^
+/tmp/ccbkvrYz.o: In function `main':
+/home/ksu/bf1.c:11: warning: the `gets' function is dangerous and should not be used.
+
+
+ksu@KSU-Ubuntu-1604-32:~$ ./bf1 AAAAAAAAAAAA
+
+Try again?
+
+
+ksu@KSU-Ubuntu-1604-32:~$ python -c "print 'a'*64" | ./bf1
+Try again?
+
+ksu@KSU-Ubuntu-1604-32:~$ python -c "print 'a'*65" | ./bf1
+Try again?
+*** stack smashing detected ***: ./bf1 terminated
+Aborted (core dumped)
+```
+==> stack canary
+```
+
+```
 
 #### 測試
 ```
