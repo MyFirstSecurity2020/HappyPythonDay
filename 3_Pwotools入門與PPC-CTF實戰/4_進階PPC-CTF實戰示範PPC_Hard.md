@@ -1,6 +1,17 @@
 # 4_進階PPC-CTF實戰示範(PPC_Hard)
+# PPC_Hard 5.hurry-up
 ```
-
+root@kali:~# nc 140.110.112.22 2401
+===== Welcome to pretty shop =====
+Can you help me beautify these sentences?
+Rule 1 : change all ' -_' to ' '
+Rule 2 : change all alphabet to lower case
+----- Example -----
+sentence : ThiS-iS_tEst tRY to BeautIfY_mE
+answer : this is test try to beautify me
+----- Now You Turn -----
+sentence : MISs cOnTEmPT_NECk-dip dEFeAT-PAymEnt_innOCENT-pEn-cOnfRonTatION_AdMIraTIon_SChOOL-Trap-CIGarETte-owe hunTER
+answer :
 ```
 
 ```
