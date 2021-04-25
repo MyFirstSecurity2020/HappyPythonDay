@@ -77,6 +77,20 @@ python3 test.py
 請課後 再看
 Colab 的簡介影片 ==>https://www.youtube.com/watch?v=inN8seMm7UI
 ```
+### 單元大綱
+```
+開啟Google Colab
+將在Google Colab執行的程式存到你自己的 Github 
+打開Google Drive(雲端硬碟) 檢視你開發的python程式(XXX.ipynb)
+下載 在Google Colab執行的程式(XXX.py格式) 
+下載 在Google Colab執行的程式(XXX.ipynb格式) 
+
+開啟別人在github上的XXX.ipynb程式
+
+講師可自行補充其他內容
+```
+
+## 開始動手
 ```
 Google 搜尋 Google Colab ==> 即可找到連結
   ==> 點選連結 需先登入(建議使用Google 帳號登入)
