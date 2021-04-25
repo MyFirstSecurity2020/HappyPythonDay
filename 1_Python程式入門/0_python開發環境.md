@@ -111,3 +111,8 @@ print("2021年4月PyTorch version最新版本 請參閱https://pytorch.org/")
 ```
 !pip list
 ```
+### 作業
+```
+上網google pip的各種作法
+https://pip.pypa.io/en/stable/
+```
