@@ -37,7 +37,7 @@ answer :
 #!/usr/bin/env python3
 from pwn import *
 
-r = remote('140.110.112.22', 20000)
+r = remote('140.110.112.22', 2401)
 
 r.recvlines(8)
 r.recvuntil('sentence : ')
